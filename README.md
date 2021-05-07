@@ -1,6 +1,13 @@
 # crdnginx
 Another ingress, you can use the original nginx way to write nginx configuration files
 
+## Compared with other ingress controllers, why create this project
+
+1. in ingress,except 80 and 443, other http ports cannot be listened 
+2. grpc service can only be port 443, not other custom ports
+3. grpc service can only be https, not http
+4. You must learn to use the new way of writing configuration files instead of the original way of writing nginx configuration files
+
 ## how to install 
 
 please note: 
